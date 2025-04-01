@@ -2,7 +2,6 @@ import React, { memo, useState } from "react";
 import styled, { css } from "styled-components";
 import { MdAdd } from "react-icons/md";
 import { useTodoDispatch, useTodoNextId } from "../TodoContext";
-import { type } from "@testing-library/user-event/dist/type";
 
 const TodoCreate = () => {
   const [open, setOpen] = useState(false);
